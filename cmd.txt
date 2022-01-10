@@ -1,0 +1,869 @@
+Microsoft Windows [Version 10.0.22000.376]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>pip install -r requirements.txt
+Collecting absl-py==0.7.1
+  Downloading absl-py-0.7.1.tar.gz (99 kB)
+     |████████████████████████████████| 99 kB 504 kB/s
+  Preparing metadata (setup.py) ... done
+Collecting astor==0.8.0
+  Downloading astor-0.8.0-py2.py3-none-any.whl (27 kB)
+Collecting gast==0.2.2
+  Downloading gast-0.2.2.tar.gz (10 kB)
+  Preparing metadata (setup.py) ... done
+Collecting grpcio==1.21.1
+  Downloading grpcio-1.21.1.tar.gz (13.9 MB)
+     |████████████████████████████████| 13.9 MB 467 kB/s
+  Preparing metadata (setup.py) ... done
+Collecting h5py==2.9.0
+  Downloading h5py-2.9.0.tar.gz (287 kB)
+     |████████████████████████████████| 287 kB 504 kB/s
+  Preparing metadata (setup.py) ... done
+Collecting joblib==0.13.2
+  Downloading joblib-0.13.2-py2.py3-none-any.whl (278 kB)
+     |████████████████████████████████| 278 kB 469 kB/s
+Collecting Keras==2.1.1
+  Downloading Keras-2.1.1-py2.py3-none-any.whl (302 kB)
+     |████████████████████████████████| 302 kB 595 kB/s
+Collecting Keras-Applications==1.0.7
+  Downloading Keras_Applications-1.0.7-py2.py3-none-any.whl (51 kB)
+     |████████████████████████████████| 51 kB 103 kB/s
+Collecting Keras-Preprocessing==1.0.9
+  Downloading Keras_Preprocessing-1.0.9-py2.py3-none-any.whl (59 kB)
+     |████████████████████████████████| 59 kB 535 kB/s
+Collecting keras-squeezenet==0.4
+  Downloading keras_squeezenet-0.4.tar.gz (3.5 kB)
+  Preparing metadata (setup.py) ... done
+Collecting Markdown==3.1.1
+  Downloading Markdown-3.1.1-py2.py3-none-any.whl (87 kB)
+     |████████████████████████████████| 87 kB 766 kB/s
+Collecting mock==3.0.5
+  Downloading mock-3.0.5-py2.py3-none-any.whl (25 kB)
+Collecting numpy==1.16.3
+  Downloading numpy-1.16.3.zip (5.1 MB)
+     |████████████████████████████████| 5.1 MB 344 kB/s
+  Preparing metadata (setup.py) ... done
+ERROR: Could not find a version that satisfies the requirement opencv-python==4.1.0.25 (from versions: 3.4.0.14, 3.4.10.37, 3.4.11.39, 3.4.11.41, 3.4.11.43, 3.4.11.45, 3.4.13.47, 3.4.14.51, 3.4.14.53, 3.4.15.55, 3.4.16.57, 3.4.16.59, 3.4.17.61, 4.3.0.38, 4.4.0.40, 4.4.0.42, 4.4.0.44, 4.4.0.46, 4.5.1.48, 4.5.2.52, 4.5.2.54, 4.5.3.56, 4.5.4.58, 4.5.4.60, 4.5.5.62)
+ERROR: No matching distribution found for opencv-python==4.1.0.25
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>pip install -r requirements.txt
+Collecting absl-py==0.7.1
+  Using cached absl-py-0.7.1.tar.gz (99 kB)
+  Preparing metadata (setup.py) ... done
+Collecting astor==0.8.0
+  Using cached astor-0.8.0-py2.py3-none-any.whl (27 kB)
+Collecting gast==0.2.2
+  Using cached gast-0.2.2.tar.gz (10 kB)
+  Preparing metadata (setup.py) ... done
+Collecting grpcio==1.21.1
+  Using cached grpcio-1.21.1.tar.gz (13.9 MB)
+  Preparing metadata (setup.py) ... done
+Collecting h5py==2.9.0
+  Using cached h5py-2.9.0.tar.gz (287 kB)
+  Preparing metadata (setup.py) ... done
+Collecting joblib==0.13.2
+  Using cached joblib-0.13.2-py2.py3-none-any.whl (278 kB)
+Collecting Keras==2.1.1
+  Using cached Keras-2.1.1-py2.py3-none-any.whl (302 kB)
+Collecting Keras-Applications==1.0.7
+  Using cached Keras_Applications-1.0.7-py2.py3-none-any.whl (51 kB)
+Collecting Keras-Preprocessing==1.0.9
+  Using cached Keras_Preprocessing-1.0.9-py2.py3-none-any.whl (59 kB)
+Collecting keras-squeezenet==0.4
+  Using cached keras_squeezenet-0.4.tar.gz (3.5 kB)
+  Preparing metadata (setup.py) ... done
+Collecting Markdown==3.1.1
+  Using cached Markdown-3.1.1-py2.py3-none-any.whl (87 kB)
+Collecting mock==3.0.5
+  Using cached mock-3.0.5-py2.py3-none-any.whl (25 kB)
+Collecting numpy==1.16.3
+  Using cached numpy-1.16.3.zip (5.1 MB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: opencv-python in c:\users\vicky\appdata\local\programs\python\python39\lib\site-packages (from -r requirements.txt (line 14)) (4.5.2.54)
+Collecting protobuf==3.7.1
+  Downloading protobuf-3.7.1-py2.py3-none-any.whl (404 kB)
+     |████████████████████████████████| 404 kB 504 kB/s
+Collecting PyYAML==5.1
+  Downloading PyYAML-5.1.tar.gz (274 kB)
+     |████████████████████████████████| 274 kB 1.7 MB/s
+  Preparing metadata (setup.py) ... done
+Collecting scikit-learn==0.21.2
+  Downloading scikit-learn-0.21.2.tar.gz (12.2 MB)
+     |████████████████████████████████| 12.2 MB 726 kB/s
+  Preparing metadata (setup.py) ... done
+Collecting scipy==1.3.0
+  Downloading scipy-1.3.0.tar.gz (23.6 MB)
+     |████████████████████████████████| 23.6 MB 136 kB/s
+  Installing build dependencies ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'C:\Users\Vicky\AppData\Local\Programs\Python\Python39\python.exe' 'C:\Users\Vicky\AppData\Local\Temp\pip-standalone-pip-szqvq47f\__env_pip__.zip\pip' install --ignore-installed --no-user --prefix 'C:\Users\Vicky\AppData\Local\Temp\pip-build-env-j9qhjlyq\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- wheel setuptools 'Cython>=0.29.2' 'numpy==1.13.3; python_version=='"'"'3.5'"'"'' 'numpy==1.13.3; python_version=='"'"'3.6'"'"'' 'numpy==1.14.5; python_version>='"'"'3.7'"'"''
+       cwd: None
+  Complete output (723 lines):
+  Ignoring numpy: markers 'python_version == "3.5"' don't match your environment
+  Ignoring numpy: markers 'python_version == "3.6"' don't match your environment
+  Collecting wheel
+    Downloading wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+  Collecting setuptools
+    Downloading setuptools-60.5.0-py3-none-any.whl (958 kB)
+  Collecting Cython>=0.29.2
+    Using cached Cython-0.29.26-py2.py3-none-any.whl (983 kB)
+  Collecting numpy==1.14.5
+    Downloading numpy-1.14.5.zip (4.9 MB)
+    Preparing metadata (setup.py): started
+    Preparing metadata (setup.py): finished with status 'done'
+  Building wheels for collected packages: numpy
+    Building wheel for numpy (setup.py): started
+    Building wheel for numpy (setup.py): finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: 'C:\Users\Vicky\AppData\Local\Programs\Python\Python39\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Vicky\\AppData\\Local\\Temp\\pip-install-cbnqfg6k\\numpy_319ad58f4c19426799abc50febd4accf\\setup.py'"'"'; __file__='"'"'C:\\Users\\Vicky\\AppData\\Local\\Temp\\pip-install-cbnqfg6k\\numpy_319ad58f4c19426799abc50febd4accf\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\Vicky\AppData\Local\Temp\pip-wheel-q6g3hevz'
+         cwd: C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\
+    Complete output (333 lines):
+    Running from numpy source directory.
+    C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\misc_util.py:464: SyntaxWarning: "is" with a literal. Did you mean "=="?
+      return is_string(s) and ('*' in s or '?' is s)
+    blas_opt_info:
+    blas_mkl_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries mkl_rt not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    blis_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries blis not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    openblas_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries openblas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+    get_default_fcompiler: matching types: '['gnu', 'intelv', 'absoft', 'compaqv', 'intelev', 'gnu95', 'g95', 'intelvem', 'intelem', 'flang']'
+    customize GnuFCompiler
+    Could not locate executable g77
+    Could not locate executable f77
+    customize IntelVisualFCompiler
+    Could not locate executable ifort
+    Could not locate executable ifl
+    customize AbsoftFCompiler
+    Could not locate executable f90
+    customize CompaqVisualFCompiler
+    Could not locate executable DF
+    customize IntelItaniumVisualFCompiler
+    Could not locate executable efl
+    customize Gnu95FCompiler
+    Could not locate executable gfortran
+    Could not locate executable f95
+    customize G95FCompiler
+    Could not locate executable g95
+    customize IntelEM64VisualFCompiler
+    customize IntelEM64TFCompiler
+    Could not locate executable efort
+    Could not locate executable efc
+    customize PGroupFlangCompiler
+    Could not locate executable flang
+    don't know how to compile Fortran code on platform 'nt'
+      NOT AVAILABLE
+
+    atlas_3_10_blas_threads_info:
+    Setting PTATLAS=ATLAS
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries tatlas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    atlas_3_10_blas_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries satlas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    atlas_blas_threads_info:
+    Setting PTATLAS=ATLAS
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    atlas_blas_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries f77blas,cblas,atlas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      self.calc_info()
+    blas_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries blas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+        Blas (http://www.netlib.org/blas/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [blas]) or by setting
+        the BLAS environment variable.
+      self.calc_info()
+    blas_src_info:
+      NOT AVAILABLE
+
+    C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+        Blas (http://www.netlib.org/blas/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [blas_src]) or by setting
+        the BLAS_SRC environment variable.
+      self.calc_info()
+      NOT AVAILABLE
+
+    'svnversion' is not recognized as an internal or external command,
+    operable program or batch file.
+    'svnversion' is not recognized as an internal or external command,
+    operable program or batch file.
+    non-existing path in 'numpy\\distutils': 'site.cfg'
+    F2PY Version 2
+    lapack_opt_info:
+    lapack_mkl_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries mkl_rt not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    openblas_lapack_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries openblas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    openblas_clapack_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries openblas,lapack not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    atlas_3_10_threads_info:
+    Setting PTATLAS=ATLAS
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries tatlas,tatlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries tatlas,tatlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries tatlas,tatlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries tatlas,tatlas not found in C:\Users\Vicky\anaconda3\Library\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+    <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+      NOT AVAILABLE
+
+    atlas_3_10_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries satlas,satlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries satlas,satlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries satlas,satlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries satlas,satlas not found in C:\Users\Vicky\anaconda3\Library\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+    <class 'numpy.distutils.system_info.atlas_3_10_info'>
+      NOT AVAILABLE
+
+    atlas_threads_info:
+    Setting PTATLAS=ATLAS
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+    <class 'numpy.distutils.system_info.atlas_threads_info'>
+      NOT AVAILABLE
+
+    atlas_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries f77blas,cblas,atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries f77blas,cblas,atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries f77blas,cblas,atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries f77blas,cblas,atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+    <class 'numpy.distutils.system_info.atlas_info'>
+      NOT AVAILABLE
+
+    lapack_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      NOT AVAILABLE
+
+    C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [lapack]) or by setting
+        the LAPACK environment variable.
+      self.calc_info()
+    lapack_src_info:
+      NOT AVAILABLE
+
+    C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+        the LAPACK_SRC environment variable.
+      self.calc_info()
+      NOT AVAILABLE
+
+    C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py:274: UserWarning: Unknown distribution option: 'define_macros'
+      warnings.warn(msg)
+    running bdist_wheel
+    running build
+    running config_cc
+    unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+    running config_fc
+    unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+    running build_src
+    build_src
+    building py_modules sources
+    creating build
+    creating build\src.win-amd64-3.9
+    creating build\src.win-amd64-3.9\numpy
+    creating build\src.win-amd64-3.9\numpy\distutils
+    building library "npymath" sources
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -Inumpy\core\src\private -Inumpy\core\src -Inumpy\core -Inumpy\core\src\npymath -Inumpy\core\src\multiarray -Inumpy\core\src\umath -Inumpy\core\src\npysort -IC:\Users\Vicky\AppData\Local\Programs\Python\Python39\include -IC:\Users\Vicky\AppData\Local\Programs\Python\Python39\include -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include" /Tc_configtest.c /Fo_configtest.obj
+    C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64\link.exe /nologo /INCREMENTAL:NO /LTCG /MANIFEST:EMBED,ID=1 /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\lib\x64" _configtest.obj /OUT:_configtest.exe
+    LINK : fatal error LNK1104: cannot open file 'kernel32.lib'
+    failure.
+    removing: _configtest.c _configtest.obj
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\setup.py", line 394, in <module>
+        setup_package()
+      File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\setup.py", line 386, in setup_package
+        setup(**metadata)
+      File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\core.py", line 169, in setup
+        return old_setup(**new_attr)
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\site-packages\setuptools\__init__.py", line 159, in setup
+        return distutils.core.setup(**attrs)
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\core.py", line 148, in setup
+        dist.run_commands()
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 966, in run_commands
+        self.run_command(cmd)
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+        self.run_command('build')
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build.py", line 47, in run
+        old_build.run(self)
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\command\build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build_src.py", line 148, in run
+        self.build_sources()
+      File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build_src.py", line 159, in build_sources
+        self.build_library_sources(*libname_info)
+      File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build_src.py", line 294, in build_library_sources
+        sources = self.generate_sources(sources, (lib_name, build_info))
+      File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build_src.py", line 377, in generate_sources
+        source = func(extension, build_dir)
+      File "numpy\core\setup.py", line 675, in get_mathlib_info
+        raise RuntimeError("Broken toolchain: cannot link a simple C program")
+    RuntimeError: Broken toolchain: cannot link a simple C program
+    ----------------------------------------
+    ERROR: Failed building wheel for numpy
+    Running setup.py clean for numpy
+    ERROR: Command errored out with exit status 1:
+     command: 'C:\Users\Vicky\AppData\Local\Programs\Python\Python39\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Vicky\\AppData\\Local\\Temp\\pip-install-cbnqfg6k\\numpy_319ad58f4c19426799abc50febd4accf\\setup.py'"'"'; __file__='"'"'C:\\Users\\Vicky\\AppData\\Local\\Temp\\pip-install-cbnqfg6k\\numpy_319ad58f4c19426799abc50febd4accf\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' clean --all
+         cwd: C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf
+    Complete output (10 lines):
+    Running from numpy source directory.
+
+    `setup.py clean` is not supported, use one of the following instead:
+
+      - `git clean -xdf` (cleans all files)
+      - `git clean -Xdf` (cleans all versioned files, doesn't touch
+                          files that aren't checked into the git repo)
+
+    Add `--force` to your command to use it anyway if you must (unsupported).
+
+    ----------------------------------------
+    ERROR: Failed cleaning build dir for numpy
+  Failed to build numpy
+  Installing collected packages: wheel, setuptools, numpy, Cython
+      Running setup.py install for numpy: started
+      Running setup.py install for numpy: finished with status 'error'
+      ERROR: Command errored out with exit status 1:
+       command: 'C:\Users\Vicky\AppData\Local\Programs\Python\Python39\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Vicky\\AppData\\Local\\Temp\\pip-install-cbnqfg6k\\numpy_319ad58f4c19426799abc50febd4accf\\setup.py'"'"'; __file__='"'"'C:\\Users\\Vicky\\AppData\\Local\\Temp\\pip-install-cbnqfg6k\\numpy_319ad58f4c19426799abc50febd4accf\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Vicky\AppData\Local\Temp\pip-record-6c5mvukp\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\Vicky\AppData\Local\Temp\pip-build-env-j9qhjlyq\overlay' --compile --install-headers 'C:\Users\Vicky\AppData\Local\Temp\pip-build-env-j9qhjlyq\overlay\Include\numpy'
+           cwd: C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\
+      Complete output (342 lines):
+      Running from numpy source directory.
+
+      Note: if you need reliable uninstall behavior, then install
+      with pip instead of using `setup.py install`:
+
+        - `pip install .`       (from a git repo or downloaded source
+                                 release)
+        - `pip install numpy`   (last NumPy release on PyPi)
+
+
+      blas_opt_info:
+      blas_mkl_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries mkl_rt not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      blis_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries blis not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      openblas_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries openblas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+      get_default_fcompiler: matching types: '['gnu', 'intelv', 'absoft', 'compaqv', 'intelev', 'gnu95', 'g95', 'intelvem', 'intelem', 'flang']'
+      customize GnuFCompiler
+      Could not locate executable g77
+      Could not locate executable f77
+      customize IntelVisualFCompiler
+      Could not locate executable ifort
+      Could not locate executable ifl
+      customize AbsoftFCompiler
+      Could not locate executable f90
+      customize CompaqVisualFCompiler
+      Could not locate executable DF
+      customize IntelItaniumVisualFCompiler
+      Could not locate executable efl
+      customize Gnu95FCompiler
+      Could not locate executable gfortran
+      Could not locate executable f95
+      customize G95FCompiler
+      Could not locate executable g95
+      customize IntelEM64VisualFCompiler
+      customize IntelEM64TFCompiler
+      Could not locate executable efort
+      Could not locate executable efc
+      customize PGroupFlangCompiler
+      Could not locate executable flang
+      don't know how to compile Fortran code on platform 'nt'
+        NOT AVAILABLE
+
+      atlas_3_10_blas_threads_info:
+      Setting PTATLAS=ATLAS
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries tatlas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      atlas_3_10_blas_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries satlas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      atlas_blas_threads_info:
+      Setting PTATLAS=ATLAS
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries ptf77blas,ptcblas,atlas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      atlas_blas_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries f77blas,cblas,atlas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+          Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+          Directories to search for the libraries can be specified in the
+          numpy/distutils/site.cfg file (section [atlas]) or by setting
+          the ATLAS environment variable.
+        self.calc_info()
+      blas_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries blas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+          Blas (http://www.netlib.org/blas/) libraries not found.
+          Directories to search for the libraries can be specified in the
+          numpy/distutils/site.cfg file (section [blas]) or by setting
+          the BLAS environment variable.
+        self.calc_info()
+      blas_src_info:
+        NOT AVAILABLE
+
+      C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+          Blas (http://www.netlib.org/blas/) sources not found.
+          Directories to search for the sources can be specified in the
+          numpy/distutils/site.cfg file (section [blas_src]) or by setting
+          the BLAS_SRC environment variable.
+        self.calc_info()
+        NOT AVAILABLE
+
+      'svnversion' is not recognized as an internal or external command,
+      operable program or batch file.
+      'svnversion' is not recognized as an internal or external command,
+      operable program or batch file.
+      non-existing path in 'numpy\\distutils': 'site.cfg'
+      F2PY Version 2
+      lapack_opt_info:
+      lapack_mkl_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries mkl_rt not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      openblas_lapack_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries openblas not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      openblas_clapack_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries openblas,lapack not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      atlas_3_10_threads_info:
+      Setting PTATLAS=ATLAS
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries tatlas,tatlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries tatlas,tatlas not found in C:\
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries tatlas,tatlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries tatlas,tatlas not found in C:\Users\Vicky\anaconda3\Library\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+      <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+        NOT AVAILABLE
+
+      atlas_3_10_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries satlas,satlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries satlas,satlas not found in C:\
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries satlas,satlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries satlas,satlas not found in C:\Users\Vicky\anaconda3\Library\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+      <class 'numpy.distutils.system_info.atlas_3_10_info'>
+        NOT AVAILABLE
+
+      atlas_threads_info:
+      Setting PTATLAS=ATLAS
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries ptf77blas,ptcblas,atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries ptf77blas,ptcblas,atlas not found in C:\
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries ptf77blas,ptcblas,atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries ptf77blas,ptcblas,atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+      <class 'numpy.distutils.system_info.atlas_threads_info'>
+        NOT AVAILABLE
+
+      atlas_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries f77blas,cblas,atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries f77blas,cblas,atlas not found in C:\
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries f77blas,cblas,atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\AppData\Local\Programs\Python\Python39\libs
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries f77blas,cblas,atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack_atlas not found in C:\Users\Vicky\anaconda3\Library\lib
+      <class 'numpy.distutils.system_info.atlas_info'>
+        NOT AVAILABLE
+
+      lapack_info:
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      customize MSVCCompiler
+        libraries lapack not found in ['C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\lib', 'C:\\', 'C:\\Users\\Vicky\\AppData\\Local\\Programs\\Python\\Python39\\libs', 'C:\\Users\\Vicky\\anaconda3\\Library\\lib']
+        NOT AVAILABLE
+
+      C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+          Lapack (http://www.netlib.org/lapack/) libraries not found.
+          Directories to search for the libraries can be specified in the
+          numpy/distutils/site.cfg file (section [lapack]) or by setting
+          the LAPACK environment variable.
+        self.calc_info()
+      lapack_src_info:
+        NOT AVAILABLE
+
+      C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\system_info.py:624: UserWarning:
+          Lapack (http://www.netlib.org/lapack/) sources not found.
+          Directories to search for the sources can be specified in the
+          numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+          the LAPACK_SRC environment variable.
+        self.calc_info()
+        NOT AVAILABLE
+
+      C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py:274: UserWarning: Unknown distribution option: 'define_macros'
+        warnings.warn(msg)
+      running install
+      C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+        warnings.warn(
+      running build
+      running config_cc
+      unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+      running config_fc
+      unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+      running build_src
+      build_src
+      building py_modules sources
+      building library "npymath" sources
+      No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+      C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -Inumpy\core\src\private -Inumpy\core\src -Inumpy\core -Inumpy\core\src\npymath -Inumpy\core\src\multiarray -Inumpy\core\src\umath -Inumpy\core\src\npysort -IC:\Users\Vicky\AppData\Local\Programs\Python\Python39\include -IC:\Users\Vicky\AppData\Local\Programs\Python\Python39\include -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include" /Tc_configtest.c /Fo_configtest.obj
+      C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64\link.exe /nologo /INCREMENTAL:NO /LTCG /MANIFEST:EMBED,ID=1 /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\lib\x64" _configtest.obj /OUT:_configtest.exe
+      LINK : fatal error LNK1104: cannot open file 'kernel32.lib'
+      failure.
+      removing: _configtest.c _configtest.obj
+      Traceback (most recent call last):
+        File "<string>", line 1, in <module>
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\setup.py", line 394, in <module>
+          setup_package()
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\setup.py", line 386, in setup_package
+          setup(**metadata)
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\core.py", line 169, in setup
+          return old_setup(**new_attr)
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\site-packages\setuptools\__init__.py", line 159, in setup
+          return distutils.core.setup(**attrs)
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\core.py", line 148, in setup
+          dist.run_commands()
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 966, in run_commands
+          self.run_command(cmd)
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+          cmd_obj.run()
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\install.py", line 62, in run
+          r = self.setuptools_run()
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\install.py", line 36, in setuptools_run
+          return distutils_install.run(self)
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\command\install.py", line 546, in run
+          self.run_command('build')
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\cmd.py", line 313, in run_command
+          self.distribution.run_command(command)
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+          cmd_obj.run()
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build.py", line 47, in run
+          old_build.run(self)
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\command\build.py", line 135, in run
+          self.run_command(cmd_name)
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\cmd.py", line 313, in run_command
+          self.distribution.run_command(command)
+        File "C:\Users\Vicky\AppData\Local\Programs\Python\Python39\lib\distutils\dist.py", line 985, in run_command
+          cmd_obj.run()
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build_src.py", line 148, in run
+          self.build_sources()
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build_src.py", line 159, in build_sources
+          self.build_library_sources(*libname_info)
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build_src.py", line 294, in build_library_sources
+          sources = self.generate_sources(sources, (lib_name, build_info))
+        File "C:\Users\Vicky\AppData\Local\Temp\pip-install-cbnqfg6k\numpy_319ad58f4c19426799abc50febd4accf\numpy\distutils\command\build_src.py", line 377, in generate_sources
+          source = func(extension, build_dir)
+        File "numpy\core\setup.py", line 675, in get_mathlib_info
+          raise RuntimeError("Broken toolchain: cannot link a simple C program")
+      RuntimeError: Broken toolchain: cannot link a simple C program
+      ----------------------------------------
+  ERROR: Command errored out with exit status 1: 'C:\Users\Vicky\AppData\Local\Programs\Python\Python39\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Vicky\\AppData\\Local\\Temp\\pip-install-cbnqfg6k\\numpy_319ad58f4c19426799abc50febd4accf\\setup.py'"'"'; __file__='"'"'C:\\Users\\Vicky\\AppData\\Local\\Temp\\pip-install-cbnqfg6k\\numpy_319ad58f4c19426799abc50febd4accf\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Vicky\AppData\Local\Temp\pip-record-6c5mvukp\install-record.txt' --single-version-externally-managed --prefix 'C:\Users\Vicky\AppData\Local\Temp\pip-build-env-j9qhjlyq\overlay' --compile --install-headers 'C:\Users\Vicky\AppData\Local\Temp\pip-build-env-j9qhjlyq\overlay\Include\numpy' Check the logs for full command output.
+  ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/cb/97/361c8c6ceb3eb765371a702ea873ff2fe112fa40073e7d2b8199db8eb56e/scipy-1.3.0.tar.gz#sha256=c3bb4bd2aca82fb498247deeac12265921fe231502a6bc6edea3ee7fe6c40a7a (from https://pypi.org/simple/scipy/) (requires-python:>=3.5). Command errored out with exit status 1: 'C:\Users\Vicky\AppData\Local\Programs\Python\Python39\python.exe' 'C:\Users\Vicky\AppData\Local\Temp\pip-standalone-pip-szqvq47f\__env_pip__.zip\pip' install --ignore-installed --no-user --prefix 'C:\Users\Vicky\AppData\Local\Temp\pip-build-env-j9qhjlyq\overlay' --no-warn-script-location --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- wheel setuptools 'Cython>=0.29.2' 'numpy==1.13.3; python_version=='"'"'3.5'"'"'' 'numpy==1.13.3; python_version=='"'"'3.6'"'"'' 'numpy==1.14.5; python_version>='"'"'3.7'"'"'' Check the logs for full command output.
+ERROR: Could not find a version that satisfies the requirement scipy==1.3.0 (from versions: 0.8.0, 0.9.0, 0.10.0, 0.10.1, 0.11.0, 0.12.0, 0.12.1, 0.13.0, 0.13.1, 0.13.2, 0.13.3, 0.14.0, 0.14.1, 0.15.0, 0.15.1, 0.16.0, 0.16.1, 0.17.0, 0.17.1, 0.18.0, 0.18.1, 0.19.0, 0.19.1, 1.0.0b1, 1.0.0rc1, 1.0.0rc2, 1.0.0, 1.0.1, 1.1.0rc1, 1.1.0, 1.2.0rc1, 1.2.0rc2, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.3.0rc1, 1.3.0rc2, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.4.0rc1, 1.4.0rc2, 1.4.0, 1.4.1, 1.5.0rc1, 1.5.0rc2, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0rc1, 1.6.0rc2, 1.6.0, 1.6.1, 1.6.2, 1.6.3, 1.7.0rc1, 1.7.0rc2, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.8.0rc1, 1.8.0rc2)
+ERROR: No matching distribution found for scipy==1.3.0
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>python3 gather_images.py rock 200
+
+165 image(s) saved to image_data\rock
+[ WARN:1] global C:\Users\ap
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>python3 train.py
+Traceback (most recent call last):
+  File "train.py", line 3, in <module>
+    from keras_squeezenet import SqueezeNet
+ModuleNotFoundError: No module named 'keras_squeezenet'
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>python3 test.py C:\Users\Vicky\Desktop\Repository\rock-paper-scissors\image_data\rock\2.jpg
+Traceback (most recent call last):
+  File "test.py", line 1, in <module>
+    from keras.models import load_model
+ModuleNotFoundError: No module named 'keras'
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>python3 play.py
+Traceback (most recent call last):
+  File "play.py", line 1, in <module>
+    from keras.models import load_model
+ModuleNotFoundError: No module named 'keras'
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>python3 gather_images.py paper 200
+
+200 image(s) saved to image_data\paper
+[ WARN:0] global C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-52oirelq\opencv\modules\videoio\src\cap_msmf.cpp (435) `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>python3 gather_images.py sessior 200
+
+200 image(s) saved to image_data\sessior
+[ WARN:0] global C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-52oirelq\opencv\modules\videoio\src\cap_msmf.cpp (435) `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>python3 gather_images.py rock 200
+image_data\rock directory already exists.
+All images gathered will be saved along with existing items in this folder
+
+200 image(s) saved to image_data\rock
+[ WARN:0] global C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-52oirelq\opencv\modules\videoio\src\cap_msmf.cpp (435) `anonymous-namespace'::SourceReaderCB::~SourceReaderCB terminating async callback
+
+C:\Users\Vicky\Desktop\Repository\rock-paper-scissors>
